@@ -80,7 +80,7 @@ println(halfOpenRangeLength(1, 10))
 // prints "9
 ```
 
-### 無參函式（Functions Without Parameters）
+### 無參數函式（Functions Without Parameters）
 
 函式可以沒有參數。下面這個函式就是一個無參函式，當被呼叫時，它回傳固定的 `String` 訊息：
 
@@ -543,13 +543,13 @@ println("zero!")
 ```
 
 <a name="Nested_Functions"></a>
-## 嵌套函式（Nested Functions）
+## 巢狀函式（Nested Functions）
 
-這章中你所見到的所有函式都叫全域函式（global functions），它們定義在全域域中。你也可以把函式定義在別的函式體中，稱作嵌套函式（nested functions）。
+這章中你所見到的所有函式都叫全域函式（global functions），它們定義在全域域中。你也可以把函式定義在別的函式體中，稱作巢狀函式（nested functions）。
 
-預設情況下，嵌套函式是對外界不可見的，但是可以被他們封閉函式（enclosing function）來呼叫。一個封閉函式也可以回傳它的某一個嵌套函式，使得這個函式可以在其他域中被使用。
+預設情況下，巢狀函式是對外界不可見的，但是可以被他們封閉函式（enclosing function）來呼叫。一個封閉函式也可以回傳它的某一個巢狀函式，使得這個函式可以在其他域中被使用。
 
-你可以用回傳嵌套函式的方式重寫 `chooseStepFunction` 函式：
+你可以用回傳巢狀函式的方式重寫 `chooseStepFunction` 函式：
 
 ```swift
 func chooseStepFunction(backwards: Bool) -> (Int) -> Int {
