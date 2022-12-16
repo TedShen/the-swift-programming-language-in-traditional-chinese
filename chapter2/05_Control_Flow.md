@@ -179,7 +179,7 @@ println("The loop statements were executed \(index) times")
 
 下面的範例來玩一個叫做_蛇和梯子（Snakes and Ladders）_的小遊戲，也叫做_滑道和梯子（Chutes and Ladders）_：
 
-![image](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Art/snakesAndLadders_2x.png)
+![image](https://docs.swift.org/swift-book/_images/snakesAndLadders_2x.png){width=50% height=50%}
 
 遊戲的規則如下：
 
@@ -471,7 +471,7 @@ default:
 // 輸出 "(1, 1) is inside the box"
 ```
 
-![image](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Art/coordinateGraphSimple_2x.png)
+![image](https://docs.swift.org/swift-book/_images/coordinateGraphSimple_2x.png)
 
 在上面的範例中，`switch`語句會判斷某個點是否是原點(0, 0)，是否在紅色的x軸上，是否在黃色y軸上，是否在一個以原點為中心的4x4的矩形裡，或者在這個矩形外面。
 
@@ -498,7 +498,7 @@ case let (x, y):
 // 輸出 "on the x-axis with an x value of 2"
 ```
 
-![image](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Art/coordinateGraphMedium_2x.png)
+![image](https://docs.swift.org/swift-book/_images/coordinateGraphMedium_2x.png)
 
 在上面的範例中，`switch`語句會判斷某個點是否在紅色的x軸上，是否在黃色y軸上，或者不在坐標軸上。
 
@@ -530,7 +530,7 @@ case let (x, y):
 // 輸出 "(1, -1) is on the line x == -y"
 ```
 
-![image](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Art/coordinateGraphComplex_2x.png)
+![image](https://docs.swift.org/swift-book/_images/coordinateGraphComplex_2x.png)
 
 在上面的範例中，`switch`語句會判斷某個點是否在綠色的對角線`x == y`上，是否在紫色的對角線`x == -y`上，或者不在對角線上。
 
@@ -679,7 +679,7 @@ println(description)
 
 遊戲的棋盤和之前一樣：
 
-![image](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Art/snakesAndLadders_2x.png)
+![image](https://docs.swift.org/swift-book/_images/snakesAndLadders_2x.png)
 
 值`finalSquare`、`board`、`square`和`diceRoll`的初始化也和之前一樣：
 
