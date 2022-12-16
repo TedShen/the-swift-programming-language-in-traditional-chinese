@@ -10,13 +10,13 @@
 - [函式參數與回傳值（Function Parameters and Return Values）](#Function_Parameters_and_Return_Values)
 - [函式參數名稱（Function Parameter Names）](#Function_Parameter_Names)
 - [函式型別（Function Types）](#Function_Types)
-- [函式嵌套（Nested Functions）](#Nested_Functions)
+- [巢狀函式（Nested Functions）](#Nested_Functions)
 
 函式是用來完成特定任務的獨立的程式碼區塊。你給一個函式起一個合適的名字，用來標示函式做什麼，並且當函式需要執行的時候，這個名字會被「呼叫」。
 
 Swift 統一的函式語法足夠靈活，可以用來表示任何函式，包括從最簡單的沒有參數名字的 C 風格函式，到複雜的帶局部和外部參數名的 Objective-C 風格函式。參數可以提供預設值，以簡化函式呼叫。參數也可以既當做傳入參數，也當做傳出參數，也就是說，一旦函式執行結束，傳入的參數值可以被修改。
 
-在 Swift 中，每個函式都有一種型別，包括函式的參數值型別和回傳值型別。你可以把函式型別當做任何其他普通變數型別一樣處理，這樣就可以更簡單地把函式當做別的函式的參數，也可以從其他函式中回傳函式。函式的定義可以寫在在其他函式定義中，這樣可以在嵌套函式範圍內實作功能封裝。
+在 Swift 中，每個函式都有一種型別，包括函式的參數值型別和回傳值型別。你可以把函式型別當做任何其他普通變數型別一樣處理，這樣就可以更簡單地把函式當做別的函式的參數，也可以從其他函式中回傳函式。函式的定義可以寫在在其他函式定義中，這樣可以在巢狀函式範圍內實作功能封裝。
 
 <a name="Defining_and_Calling_Functions"></a>
 ## 函式的定義與呼叫（Defining and Calling Functions）
